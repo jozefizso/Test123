@@ -1,0 +1,11 @@
+# version format
+version: 1.0.{build}
+
+image: Visual Studio 2017
+platform: Any CPU
+configuration:
+  - Debug
+  - Release
+
+build:
+  project: TestApp.sln
