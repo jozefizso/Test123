@@ -7,5 +7,8 @@ configuration:
   - Debug
   - Release
 
+before_build:
+  - nuget restore TestApp.sln
+
 build:
   project: TestApp.sln
